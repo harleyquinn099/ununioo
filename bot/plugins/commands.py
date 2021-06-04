@@ -92,7 +92,7 @@ async def start(bot, update):
         InlineKeyboardButton('⚡️Mᴀꜱᴛᴇʀ⚡️', url='https://t.me/DARK_ANGEL_1234'),
         InlineKeyboardButton('Tᴜᴛᴏʀɪᴀʟ🎥', url ='https://youtu.be/uAHl5jvnrhk')
     ],[
-        InlineKeyboardButton('Gʀᴏᴜᴘ👥', url='https://t.me/WORLD_MOVIES_01'),
+        InlineKeyboardButton('Gʀᴏᴜᴘ👥', url='https://t.me/Series_wrd'),
         InlineKeyboardButton('🔊Cʜᴀɴɴᴇʟ', url='https://t.me/DaRK_iNFO_CHaNNeL')
     ],[
         InlineKeyboardButton('⚙Help⚙', callback_data="help")
