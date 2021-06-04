@@ -1601,8 +1601,8 @@ async def cb_about(bot, update: CallbackQuery):
     text=f"<i><u>Bot's Status</u></i>\n"
     text+=f"\n<b><i>Bot's Uptime:</i></b> <code>{time_formatter(time.time() - start_uptime)}</code>\n"
     text+=f"\n<b><i>Bot Funtion:</i></b> <i>Pro Auto File Filter Bot</i>\n"
-    text+=f"""\n<b><i>Group👥:</i></b> <a href="https://t.me/WORLD_MOVIES_01">WorldMovies</a>\n"""
-    text+="""\n<b><i>🔊Channel:</i></b> <a href="https://t.me/Fantasy_Movies">Fantasy_Movies</a>"""
+    text+=f"""\n<b><i>Group👥:</i></b> <a href="https://t.me/Series_wrd">Sᴇʀɪᴇꜱ Wᴏʀʟᴅ</a>\n"""
+    text+="""\n<b><i>🔊Channel:</i></b> <a href="https://t.me/DaRK_iNFO_CHaNNeL">™Dᤢᴀʀᴋ iNFO</a>"""
 
     buttons = [
         [
@@ -1642,8 +1642,8 @@ async def callback_data(bot, update: CallbackQuery):
             InlineKeyboardButton('⚡️Mᴀꜱᴛᴇʀ⚡️', url='https://t.me/DARK_ANGEL_1234'),
             InlineKeyboardButton('Tᴜᴛᴏʀɪᴀʟ🎥', url ='https://youtu.be/uAHl5jvnrhk')
         ],[
-            InlineKeyboardButton('Gʀᴏᴜᴘ👥', url='https://t.me/WORLD_MOVIES_01'),
-            InlineKeyboardButton('🔊Cʜᴀɴɴᴇʟ', url='https://t.me/Fantasy_Movies')
+            InlineKeyboardButton('Gʀᴏᴜᴘ👥', url='https://t.me/Series_wrd'),
+            InlineKeyboardButton('🔊Cʜᴀɴɴᴇʟ', url='https://t.me/DaRK_iNFO_CHaNNeL')
         ],[
             InlineKeyboardButton('Help ⚙', callback_data="help")
         ]]
