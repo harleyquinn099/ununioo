@@ -23,7 +23,7 @@ async def start(bot, update):
         if (file_id or file_type) == None:
             return
         
-        caption = ("<code>" + file_name + "</code>""""\n\n\n<b>Gʀᴏᴜᴘ👥:- @Series_wrd\n\n🔊Cʜᴀɴɴᴇʟ:- @DaRK_iNFO_CHaNNeL</b>""")
+        caption = ("<code>" + file_name + "</code>""""\n\n\n<b>Gʀᴏᴜᴘ👥:- @Series_wrd</b>""")
         
         if file_type == "document":
         
