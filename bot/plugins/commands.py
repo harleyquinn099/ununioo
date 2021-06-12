@@ -23,7 +23,7 @@ async def start(bot, update):
         if (file_id or file_type) == None:
             return
         
-        caption = ("<code>" + file_name + "</code>""""\n\n\n<b>Gʀᴏᴜᴘ👥:- @Series_wrd</b>""")
+        caption = ("<code>" + file_name + "</code>""""\n\n\n<b>Gʀᴏᴜᴘ👥:- @Fantasy_Movies</b>""")
         
         if file_type == "document":
         
@@ -89,11 +89,11 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('⚡️Mᴀꜱᴛᴇʀ⚡️', url='https://t.me/DARK_ANGEL_1234'),
+        InlineKeyboardButton('⚡Mɪꜱᴛʀᴇꜱꜱ⚡️', url='https://t.me/DARK_ANGEL_1234'),
         InlineKeyboardButton('Tᴜᴛᴏʀɪᴀʟ🎥', url ='https://youtu.be/uAHl5jvnrhk')
     ],[
-        InlineKeyboardButton('Gʀᴏᴜᴘ👥', url='https://t.me/Series_wrd'),
-        InlineKeyboardButton('🔊Cʜᴀɴɴᴇʟ', url='https://t.me/DaRK_iNFO_CHaNNeL')
+        InlineKeyboardButton('Gʀᴏᴜᴘ👥', url='https://t.me/Fantasy_Worldz'),
+        InlineKeyboardButton('🔊Cʜᴀɴɴᴇʟ', url='https://t.me/Fantasy_Movies')
     ],[
         InlineKeyboardButton('⚙Help⚙', callback_data="help")
     ]]
