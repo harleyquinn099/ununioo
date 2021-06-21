@@ -81,7 +81,7 @@ async def auto_filter(bot, update):
             file_size = "" if file_size == ("[0 B]") else file_size
             
             # add emoji down below inside " " if you want..
-            button_text = f"{file_size}{file_name}"
+            button_text = f"{file_size}🦋{file_name}"
             
 
             if file_type == "video":
@@ -204,7 +204,7 @@ async def auto_filter(bot, update):
             await bot.send_photo(
                 chat_id=update.chat.id,
                 photo="https://telegra.ph/file/b49177acf75fd87a8d789.jpg",
-                caption=f"Total Files📂:-{(len_results)} \n\n Movie🔎:- <code>{query}</code>",
+                caption=f"Tᴏᴛᴀʟ Fɪʟᴇꜱ📂:- {(len_results)} \n\n Mᴏᴠɪᴇ🔎:- <code>{query}</code>",
                 reply_markup=reply_markup,
                 parse_mode="html",
                 reply_to_message_id=update.message_id
