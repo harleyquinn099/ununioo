@@ -142,7 +142,7 @@ async def cb_navg(bot, update: CallbackQuery):
     
     reply_markup = InlineKeyboardMarkup(temp_results)
     
-    text=f"<i>Found</i> <code>{leng}</code> <i>Results For Your Query:</i> <code>{query}</code>"
+    text=f"<i>Tᴏᴛᴀʟ Fɪʟᴇꜱ📂:-</i> <code>{leng}</code> \n\n <i>Mᴏᴠɪᴇ🔎:-</i> <code>{query}</code>"
         
     try:
         await update.message.edit(
@@ -1608,7 +1608,7 @@ async def cb_about(bot, update: CallbackQuery):
         [
             InlineKeyboardButton
                 (
-                    "⚡Mɪꜱᴛʀᴇꜱꜱ⚡️", url="https://t.me/DARK_ANGEL_1234"
+                    "⚡Mᴀsᴛᴇʀ⚡️", url="https://t.me/DARK_ANGEL_1234"
                 ),
                 
             InlineKeyboardButton
@@ -1639,7 +1639,7 @@ async def callback_data(bot, update: CallbackQuery):
 
     if query_data == "start":
         buttons = [[
-            InlineKeyboardButton('⚡Mɪꜱᴛʀᴇꜱꜱ⚡️', url='https://t.me/DARK_ANGEL_1234'),
+            InlineKeyboardButton('⚡Mᴀsᴛᴇʀ⚡️', url='https://t.me/DARK_ANGEL_1234'),
             InlineKeyboardButton('Tᴜᴛᴏʀɪᴀʟ🎥', url ='https://youtu.be/uAHl5jvnrhk')
         ],[
             InlineKeyboardButton('Gʀᴏᴜᴘ👥', url='https://t.me/Fantasy_Worldz'),
