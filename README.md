@@ -3,7 +3,7 @@
 ## Dev Details 👤:
 
 <p align="middle">
-<img src="https://telegra.ph/file/5544537e87a05e0785147.jpg" width="150" height="150"><br>
+<img src="https://telegra.ph/file/226864ccdedc955297cfa.jpg" width="150" height="150"><br>
 <img src="https://badgen.net/badge/Nᴀᴍᴇ/Dᴀʀᴋ Aɴɢᴇʟ/FF33FF?icon=awesome&labelColor=0080FF"></a>
 <img src="https://badgen.net/badge/Sᴛᴀᴛᴇ/Kᴇʀᴀʟᴀ/purple?icon=terminal&labelColor=red"></a>
 <a href="https://telegram.dog/DARK_ANGEL_1234"><img src="https://img.shields.io/badge/Tᴇʟᴇɢʀᴀᴍ-Cᴏɴᴛᴀᴄᴛ-blue.svg?logo=telegram"></a>
