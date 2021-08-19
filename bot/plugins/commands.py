@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) @DARK_ANGEL_1234
+# (c) @unlimtedmovie00
 
 from pyrogram import filters, Client
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
@@ -76,7 +76,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '𝙅𝙊𝙄𝙉 𝙄𝙉 𝙊𝙐𝙍 𝘾𝙃𝘼𝙉𝙉𝙀𝙇', url="https://t.me/unlimtedmovie00"
+                                    '♎𝙅𝙊𝙄𝙉 𝙄𝙉 𝙊𝙐𝙍 𝘾𝙃𝘼𝙉𝙉𝙀𝙇♎', url="https://t.me/unlimtedmovie00"
                                 )
                         ]
                     ]
