@@ -38,7 +38,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '♻️Iɴғᴏ Cʜᴀɴɴᴇʟ♻️', url="https://t.me/DaRK_iNFO_CHaNNeL"
+                                    '♻️𝙊𝙐𝙍 𝘾𝙃𝘼𝙉𝙉𝙀𝙇♻️', url="https://t.me/unlimtedmovie00"
                                 )
                         ]
                     ]
@@ -57,7 +57,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Dᴇᴠᴇʟᴏᴘᴇʀ', url="https://t.me/DARK_ANGEL_1234"
+                                    '𝙅𝙊𝙄𝙉 𝙄𝙉 𝙊𝙐𝙍 𝘾𝙃𝘼𝙉𝙉𝙀𝙇', url="https://t.me/unlimtedmovie00"
                                 )
                         ]
                     ]
@@ -76,7 +76,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Dᴇᴠᴇʟᴏᴘᴇʀ', url="https://t.me/DARK_ANGEL_1234"
+                                    '𝙅𝙊𝙄𝙉 𝙄𝙉 𝙊𝙐𝙍 𝘾𝙃𝘼𝙉𝙉𝙀𝙇', url="https://t.me/unlimtedmovie00"
                                 )
                         ]
                     ]
@@ -89,11 +89,11 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('⚡Mᴀsᴛᴇʀ⚡️', url='https://t.me/DARK_ANGEL_1234'),
+        InlineKeyboardButton('⚡Mᴀsᴛᴇʀ⚡️', url='https://t.me/uniunioo'),
         InlineKeyboardButton('Tᴜᴛᴏʀɪᴀʟ🎥', url ='https://youtu.be/uAHl5jvnrhk')
     ],[
-        InlineKeyboardButton('Gʀᴏᴜᴘ👥', url='https://t.me/Fantasy_Worldz'),
-        InlineKeyboardButton('🔊Cʜᴀɴɴᴇʟ', url='https://t.me/Fantasy_Movies')
+        InlineKeyboardButton('Gʀᴏᴜᴘ👥', url='https://t.me/filmgallery0999'),
+        InlineKeyboardButton('🔊Cʜᴀɴɴᴇʟ', url='https://t.me/unlimtedmovie00')
     ],[
         InlineKeyboardButton('⚙Help⚙', callback_data="help")
     ]]
