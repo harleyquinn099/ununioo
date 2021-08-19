@@ -34,7 +34,7 @@
 
 ### Deploy
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DarkAngel1234-tech/Pro-Auto-Filter-Bot.git)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Kiran7994/lost-life)
 
 
 ## Configs
