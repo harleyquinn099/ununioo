@@ -4,7 +4,7 @@
 
 <p align="middle">
 <img src="https://telegra.ph/file/226864ccdedc955297cfa.jpg" width="150" height="150"><br>
-<img src="https://telegra.ph/file/8e02dfa1af35ee3f049d9.jpg=awesome&labelColor=0080FF"></a>
+<img src="https://telegra.ph/file/8e02dfa1af35ee3f049d9.jpg"></a>
 <img src="https://badgen.net/badge/Sᴛᴀᴛᴇ/Kᴇʀᴀʟᴀ/purple?icon=terminal&labelColor=red"></a>
 <a href="https://telegram.dog/DARK_ANGEL_1234"><img src="https://img.shields.io/badge/Tᴇʟᴇɢʀᴀᴍ-Cᴏɴᴛᴀᴄᴛ-blue.svg?logo=telegram"></a>
 <p align="left">
