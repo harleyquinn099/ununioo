@@ -21,12 +21,12 @@
   </a>
 </p>
 <p align="center">
-  <a href="https://github.com/DarkAngel1234-tech/Pro-Auto-Filter-Bot/stargazers">
+  <a href="https://github.com/Kiran7994/auto-filter-bot-v2/stargazers">
     <img src="https://img.shields.io/github/stars/DarkAngel1234-tech/Pro-Auto-Filter-Bot?style=social">
 
   </a>
   
-  <a href="https://github.com/DarkAngel1234-tech/Pro-Auto-Filter-Bot/fork">
+  <a href="https://github.com/Kiran7994/auto-filter-bot-v2/fork">
     <img src="https://img.shields.io/github/forks/DarkAngel1234-tech/Pro-Auto-Filter-Bot?label=Fork&style=social">
 
   </a>  
