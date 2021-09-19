@@ -26,7 +26,7 @@
 
   </a>
   
-  <a href="https://github.com/Kiran7994/auto-filter-bot-v2/fork">
+  <a href="https://github.com/harleyquinn099/auto-filter-bot-v2">
     <img src="https://img.shields.io/github/forks/DarkAngel1234-tech/Pro-Auto-Filter-Bot?label=Fork&style=social">
 
   </a>  
@@ -34,7 +34,7 @@
 
 ### Deploy
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Kiran7994/lost-life)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/harleyquinn099/auto-filter-bot-v2)
 
 
 ## Configs
