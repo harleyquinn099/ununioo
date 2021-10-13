@@ -1,4 +1,4 @@
-#Auto-Filter-Bot V2
+# Auto-Filter-Bot V2
 
 ## Dev Details 👤:
 
