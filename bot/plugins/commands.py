@@ -23,7 +23,7 @@ async def start(bot, update):
         if (file_id or file_type) == None:
             return
         
-        caption = ("<code>" + file_name + "</code>""""\n\n\n<𝐅𝐎𝐑 𝐌𝐎𝐑𝐄 𝐌𝐎𝐕𝐈𝐄𝐒 𝐉𝐎𝐈𝐍 𝐈𝐍 𝐎𝐔𝐑 𝐂𝐇𝐀𝐍𝐍𝐄𝐋:- @unlimtedmovie00</b>""")
+        caption = ("<code>" + file_name + "</code>""""\n\n\n< 𝐅𝐎𝐑 𝐌𝐎𝐑𝐄 𝐌𝐎𝐕𝐈𝐄𝐒 𝐉𝐎𝐈𝐍 𝐈𝐍 𝐎𝐔𝐑 𝐂𝐇𝐀𝐍𝐍𝐄𝐋:- @unlimtedmovie00</b>""")
         
         if file_type == "document":
         
@@ -38,7 +38,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '♻️𝙊𝙐𝙍 𝘾𝙃𝘼𝙉𝙉𝙀𝙇♻️', url="https://t.me/share/url?url=https://t.me/Unlimtedmovie00"
+                                    '♻️𝙊𝙐𝙍 𝘾𝙃𝘼𝙉𝙉𝙀𝙇♻️', url="https://t.me/Unlimtedmovie00"
                                 )
                         ]
                     ]
@@ -89,9 +89,6 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('⚡Mᴀsᴛᴇʀ⚡️', url='https://t.me/uniunioo'),
-        InlineKeyboardButton('Tᴜᴛᴏʀɪᴀʟ🎥', url ='https://youtu.be/uAHl5jvnrhk')
-    ],[
         InlineKeyboardButton('Gʀᴏᴜᴘ👥', url='https://t.me/filmgallery0999'),
         InlineKeyboardButton('🔊Cʜᴀɴɴᴇʟ', url='https://t.me/unlimtedmovie00')
     ],[
