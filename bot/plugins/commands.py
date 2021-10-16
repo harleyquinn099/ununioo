@@ -14,7 +14,7 @@ db = Database()
 async def start(bot, update):
     CHANNEL = justbot
     try:
-        except UserNotParticipant:
+        exceptUserNotParticipant:
             #await update.reply_text(f"Join @{CHANNEL} To Use Me")
             await update.reply_text(
                 text="<b>🔊 𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗠𝗮𝗶𝗻 𝗰𝗵𝗮𝗻𝗻𝗲𝗹</b>",
