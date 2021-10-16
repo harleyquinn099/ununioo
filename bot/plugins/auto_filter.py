@@ -6,8 +6,8 @@ from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 from pyrogram.errors import ButtonDataInvalid, FloodWait
 
-from bot.database import Database # pylint: disable=import-error
-from bot.bot import Bot # pylint: disable=import-error
+from DonLee_Robot.Database import Database # pylint: disable=import-error
+from DonLee_Robot.donlee_robot import DonLee_Robot # pylint: disable=import-error
 
 
 FIND = {}
@@ -15,7 +15,7 @@ INVITE_LINK = {}
 ACTIVE_CHATS = {}
 db = Database()
 
-@Bot.on_message(filters.text & filters.group & ~filters.bot, group=0)
+@DonLee_Robot.on_message(filters.text & filters.group & ~filters.bot, group=0)
 async def auto_filter(bot, update):
     """
     A Funtion To Handle Incoming Text And Reply With Appropriate Results
@@ -81,7 +81,7 @@ async def auto_filter(bot, update):
             file_size = "" if file_size == ("[0 B]") else file_size
             
             # add emoji down below inside " " if you want..
-            button_text = f"🔘{file_size}🔘{file_name}"
+            button_text = f"{file_size}{file_name}"
             
 
             if file_type == "video":
@@ -147,13 +147,13 @@ async def auto_filter(bot, update):
         if len_result != 1:
             result[0].append(
                 [
-                    InlineKeyboardButton("Nᴇxᴛ ➡️", callback_data=f"navigate(0|next|{query})")
+                    InlineKeyboardButton("Next ⏩", callback_data=f"navigate(0|next|{query})")
                 ]
             )
         
         # Just A Decaration
         result[0].append([
-            InlineKeyboardButton(f"🔶 Pᴀɢᴇ 1/{len_result if len_result < max_pages else max_pages} 🔶", callback_data="ignore")
+            InlineKeyboardButton(f"🔰 Page 1/{len_result if len_result < max_pages else max_pages} 🔰", callback_data="ignore")
         ])
         
         
@@ -201,10 +201,9 @@ async def auto_filter(bot, update):
         reply_markup = InlineKeyboardMarkup(result[0])
 
         try:
-            await bot.send_photo(
-                chat_id=update.chat.id,
-                photo="https://telegra.ph/file/93578261e969c13c0e6e0.jpg",
-                caption=f"Tᴏᴛᴀʟ Fɪʟᴇꜱ📂:- {(len_results)} \n\n Mᴏᴠɪᴇ🔎:- <code>{query}</code>",
+            await bot.send_message(
+                chat_id = update.chat.id,
+                text=f"Found {(len_results)} Results For Your Query: <code>{query}</code>",
                 reply_markup=reply_markup,
                 parse_mode="html",
                 reply_to_message_id=update.message_id
@@ -245,7 +244,7 @@ async def gen_invite_links(db, group_id, bot, update):
     return 
 
 
-async def recacher(group_id, ReCacheInvite=True, ReCacheActive=False, bot=Bot, update=Message):
+async def recacher(group_id, ReCacheInvite=True, ReCacheActive=False, bot=DonLee_Robot, update=Message):
     """
     A Funtion To rechase invite links and active chats of a specific chat
     """
@@ -286,5 +285,3 @@ async def recacher(group_id, ReCacheInvite=True, ReCacheActive=False, bot=Bot, u
             
             ACTIVE_CHATS[str(group_id)] = achatId
     return 
-
-
