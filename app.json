@@ -23,6 +23,10 @@
             "description": "Your Bot Token From @BotFather",
             "value": ""
         },
+        "CHANNEL": {
+            "discription": "channel go
+            "value": ""
+        },
         "DB_URI": {
             "description": "Your Mongo DB URL Obtained From mongodb.com",
             "value": ""
