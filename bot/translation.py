@@ -18,4 +18,4 @@ class Translation(object):
 <b><i><a href="https://t.me/Unlimtedmovie00">FILM GALLERY</a></i></b>
 """
     
-    ABOUT_TEXT = """<b>➥ Name</b> : <code> Advance Auto Filter Bot</code>
+    ABOUT_TEXT = """<b>➥ Name</b> : <code> Advance Auto Filter Bot</code>"""
