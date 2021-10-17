@@ -14,6 +14,10 @@ db = Database()
 async def start(bot, update):
     CHANNEL = justbot
     try:
+        user = await bot.get_chat_member(update_channel, update.chat.id)
+            if user.status == "kicked out":
+               await update.reply_text("😔 Sorry Dude, You are **🅱︎🅰︎🅽︎🅽︎🅴︎🅳︎ 🤣🤣🤣**")
+               return
         except UserNotParticipant:
             #await update.reply_text(f"Join @{CHANNEL} To Use Me")
             await update.reply_text(
