@@ -28,7 +28,7 @@ async def start(bot, update):
             )
             return
         except Exception:
-            await update.reply_text(f"@{MT_UPDATE}")
+            await update.reply_text(f"@{CHANNEL}")
             return      
         file_uid = update.command[1]
     except IndexError:
